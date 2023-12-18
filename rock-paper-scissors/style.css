@@ -1,0 +1,66 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f9f9f9; /* Light Gray */
+}
+
+.container {
+    text-align: center;
+}
+
+#game {
+    margin-top: 50px;
+}
+
+#choices {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.choice {
+    padding: 15px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #3498db; /* Dodger Blue */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.choice:hover {
+    background-color: #2980b9; /* Darker Dodger Blue on hover */
+    transform: scale(1.05); /* Slight scale on hover */
+}
+
+#result {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#play-again {
+    display: none;
+    padding: 15px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #2ecc71; /* Emerald Green */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#play-again:hover {
+    background-color: #27ae60; /* Darker Emerald Green on hover */
+    transform: scale(1.05); /* Slight scale on hover */
+}
